@@ -12,11 +12,14 @@
 
     <title>Timothy J King Portfolio</title>
 
-    <!-- Bootstrap Core CSS -->
+  <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- bootstrap theme CSS -->
     <link href="css/the-big-picture.css" rel="stylesheet">
+    
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="css/custom-style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,7 +52,7 @@
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="porfolio.html">Gallery</a>
+                        <a href="portfolio.html">Gallery</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
@@ -63,12 +66,29 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <h1>The Big Picture</h1>
-                <p>As a web developer I work to connect businesses and profits with their clients by creating dynamic and accesbile web content. </p>
-            </div>
-        </div>
+       	<div class="row">
+  	     <h1>Contact</h1>
+		</div>
+		<div class="row">
+			<div class= "col-md-5">
+				<form action= "action_page.php">
+					Name<br>
+					<input id= "name" type="text" name="John Smith" placeholder="John Smith"> 
+					<br>
+					Email
+					<br>
+					<input id= "email" type="text" name="example@gmail.com" placeholder= "example@gmail.com"> 	
+					<br>
+					Message 
+					<br>
+					<input id= "message" type="text" name="message">	
+					<br>
+					<input id= "submit-button" type="Submit" value= "Submit" name="Submit">
+
+				</form>
+			</div>
+		</div>
+
         <!-- /.row -->
     </div>
     <!-- /.container -->
