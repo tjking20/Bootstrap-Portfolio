@@ -71,7 +71,9 @@ p{
 
 }
 
-input[type="text"]:enabled {
-    background: green;
+::-webkit-input-placeholder{
+   color: #E6E6E6;
+
+
 }
 
