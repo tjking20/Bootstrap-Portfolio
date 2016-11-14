@@ -11,13 +11,9 @@ body {
 }
 
 .full {
-  background: url(../assets/Philadelphia.jpg) no-repeat center center fixed; 
+  background: url(../assets/philadelphia-image.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#tjk{
-	width: 200px;
 }
